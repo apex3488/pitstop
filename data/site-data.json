@@ -1,0 +1,1910 @@
+{
+  "settings": {
+    "site_title": "PITSTOP — Auto & Moto Community Café",
+    "site_description": "PITSTOP — auto&moto community café в Ташкенте. Кафе, где встречаются автомобили, мотоциклы и атмосфера community. Работаем 24/7.",
+    "instagram_url": "https://www.instagram.com/pitstop_avtomotocafe/",
+    "instagram_handle": "@pitstop_avtomotocafe",
+    "hero_image": "images/hero/hero-night.jpg",
+    "about_image": "images/atmosphere/terrace-night.jpg",
+    "about_image_2": "images/atmosphere/hammock.jpg",
+    "moto_image": "images/auto-moto/bikes-lineup.jpg",
+    "og_image": "images/hero/hero-night.jpg",
+    "currency": {
+      "ru": "сум",
+      "uz": "so‘m",
+      "en": "UZS"
+    },
+    "address": {
+      "ru": "Ташкент, Мирабадский район, Малая кольцевая дорога, 250",
+      "uz": "Toshkent, Mirobod tumani, Kichik halqa yo‘li, 250",
+      "en": "Tashkent, Mirabad district, Little Ring Road 250"
+    }
+  },
+  "content": {
+    "hero_kicker": {
+      "ru": "AUTO & MOTO COMMUNITY CAFÉ",
+      "uz": "AUTO & MOTO COMMUNITY CAFÉ",
+      "en": "AUTO & MOTO COMMUNITY CAFÉ"
+    },
+    "hero_title": {
+      "ru": "Ночная точка\nдля своих.",
+      "uz": "O‘zlariki uchun\ntun nuqtasi.",
+      "en": "A night stop\nfor our people."
+    },
+    "hero_text": {
+      "ru": "PITSTOP — место, где auto/moto community встречается с атмосферой кафе. Еда, кофе, мотоциклы у входа и разговоры до утра. Работаем 24/7.",
+      "uz": "PITSTOP — auto/moto community va cafe atmosferasi uchrashadigan joy. Taom, qahva, eshik oldidagi mototsikllar va ertalabgacha suhbat. 24/7 ochiq.",
+      "en": "PITSTOP is where the auto/moto community meets café atmosphere. Food, coffee, bikes at the door, conversations until morning. Open 24/7."
+    },
+    "about_kicker": {
+      "ru": "COMMUNITY",
+      "uz": "COMMUNITY",
+      "en": "COMMUNITY"
+    },
+    "about_title": {
+      "ru": "Не просто кафе.\nТочка сбора.",
+      "uz": "Shunchaki kafe emas.\nYig‘ilish nuqtasi.",
+      "en": "Not just a café.\nA gathering point."
+    },
+    "about_text": {
+      "ru": "PITSTOP объединяет auto/moto community и café atmosphere. Здесь можно заехать ночью, сесть на террасе, выпить кофе, поесть и остаться среди своих. Food. Chill. Play. Coffee. Drinks. Take away.",
+      "uz": "PITSTOP auto/moto community va cafe atmosferasini birlashtiradi. Tunda kelish, terrassada o‘tirish, qahva ichish, ovqatlanish va o‘zlariki orasida qolish mumkin. Food. Chill. Play. Coffee. Drinks. Take away.",
+      "en": "PITSTOP brings together the auto/moto community and café atmosphere. Pull in at night, sit on the terrace, have coffee, eat, and stay among your people. Food. Chill. Play. Coffee. Drinks. Take away."
+    },
+    "menu_kicker": {
+      "ru": "MENU",
+      "uz": "MENU",
+      "en": "MENU"
+    },
+    "menu_title": {
+      "ru": "Кухня и бар",
+      "uz": "Oshxona va bar",
+      "en": "Kitchen and bar"
+    },
+    "menu_text": {
+      "ru": "Завтраки с 03:00 до 15:00. Остальное меню — круглосуточно.",
+      "uz": "Nonushta 03:00 dan 15:00 gacha. Qolgan menyu — kechayu kunduz.",
+      "en": "Breakfast from 03:00 to 15:00. The rest of the menu is all day."
+    },
+    "gallery_kicker": {
+      "ru": "ATMOSPHERE",
+      "uz": "ATMOSPHERE",
+      "en": "ATMOSPHERE"
+    },
+    "gallery_title": {
+      "ru": "Ночь, свет, свои.",
+      "uz": "Tun, yorug‘lik, o‘zlariki.",
+      "en": "Night, light, people."
+    },
+    "gallery_text": {
+      "ru": "Терраса, вывеска, мотоциклы у входа и зал, в котором хочется задержаться.",
+      "uz": "Terrasa, yorug‘ yozuv, eshik oldidagi mototsikllar va qolib ketadigan zal.",
+      "en": "The terrace, the sign, bikes at the door, and a room you stay in longer than planned."
+    },
+    "moto_kicker": {
+      "ru": "AUTO & MOTO",
+      "uz": "AUTO & MOTO",
+      "en": "AUTO & MOTO"
+    },
+    "moto_title": {
+      "ru": "Сюда приезжают\nна двух колёсах\nи на четырёх.",
+      "uz": "Bu yerga ikki\nva to‘rt g‘ildirakda\nkelishadi.",
+      "en": "People arrive\non two wheels\nand on four."
+    },
+    "moto_text": {
+      "ru": "PITSTOP — auto&moto community café. Техника остаётся у входа, люди остаются за столом.",
+      "uz": "PITSTOP — auto&moto community café. Texnika eshik oldida qoladi, odamlar stol atrofida.",
+      "en": "PITSTOP is an auto&moto community café. The machines stay at the door. The people stay at the table."
+    },
+    "location_kicker": {
+      "ru": "LOCATION",
+      "uz": "LOCATION",
+      "en": "LOCATION"
+    },
+    "location_title": {
+      "ru": "Как нас найти",
+      "uz": "Bizni qanday topasiz",
+      "en": "How to find us"
+    },
+    "location_text": {
+      "ru": "Ташкент, Малая кольцевая. Карты и отзывы — в одном месте.",
+      "uz": "Toshkent, Kichik halqa yo‘li. Xarita va fikrlar — bir joyda.",
+      "en": "Tashkent, Little Ring Road. Maps and reviews in one place."
+    },
+    "instagram_kicker": {
+      "ru": "INSTAGRAM",
+      "uz": "INSTAGRAM",
+      "en": "INSTAGRAM"
+    },
+    "instagram_title": {
+      "ru": "Живая лента — в Instagram.",
+      "uz": "Jonli lenta — Instagram’da.",
+      "en": "The live feed is on Instagram."
+    },
+    "instagram_text": {
+      "ru": "Смотрите смены атмосферы, технику у входа и то, что происходит ночью.",
+      "uz": "Atmosfera, eshik oldidagi texnika va tun nimalar bo‘layotganini ko‘ring.",
+      "en": "See the atmosphere, the bikes at the door, and what happens after dark."
+    },
+    "footer_tag": {
+      "ru": "auto&moto community café",
+      "uz": "auto&moto community café",
+      "en": "auto&moto community café"
+    }
+  },
+  "ui": {
+    "ru": {
+      "nav_home": "Главная",
+      "nav_about": "Community",
+      "nav_menu": "Меню",
+      "nav_atmosphere": "Атмосфера",
+      "nav_moto": "Auto & Moto",
+      "nav_location": "Локация",
+      "nav_instagram": "Instagram",
+      "cta_menu": "Смотреть меню",
+      "cta_find": "Как нас найти",
+      "open_menu": "Открыть меню",
+      "hours": "Работаем 24/7",
+      "menu_note": "Цены — как в печатном меню PITSTOP.",
+      "paper_menu": "Фото меню",
+      "gallery_open": "Открыть фото",
+      "gallery_close": "Закрыть",
+      "gallery_prev": "Назад",
+      "gallery_next": "Дальше",
+      "open_instagram": "Открыть Instagram",
+      "lang_label": "Язык"
+    },
+    "uz": {
+      "nav_home": "Bosh sahifa",
+      "nav_about": "Community",
+      "nav_menu": "Menyu",
+      "nav_atmosphere": "Atmosfera",
+      "nav_moto": "Auto & Moto",
+      "nav_location": "Manzil",
+      "nav_instagram": "Instagram",
+      "cta_menu": "Menyuni ko‘rish",
+      "cta_find": "Qanday topamiz",
+      "open_menu": "Menyuni ochish",
+      "hours": "24/7 ochiq",
+      "menu_note": "Narxlar PITSTOP bosma menyusidagidek.",
+      "paper_menu": "Menyu fotosi",
+      "gallery_open": "Fotoni ochish",
+      "gallery_close": "Yopish",
+      "gallery_prev": "Oldingi",
+      "gallery_next": "Keyingi",
+      "open_instagram": "Instagramni ochish",
+      "lang_label": "Til"
+    },
+    "en": {
+      "nav_home": "Home",
+      "nav_about": "Community",
+      "nav_menu": "Menu",
+      "nav_atmosphere": "Atmosphere",
+      "nav_moto": "Auto & Moto",
+      "nav_location": "Location",
+      "nav_instagram": "Instagram",
+      "cta_menu": "See the menu",
+      "cta_find": "Find us",
+      "open_menu": "Open menu",
+      "hours": "Open 24/7",
+      "menu_note": "Prices match the printed PITSTOP menu.",
+      "paper_menu": "Menu photos",
+      "gallery_open": "Open photo",
+      "gallery_close": "Close",
+      "gallery_prev": "Previous",
+      "gallery_next": "Next",
+      "open_instagram": "Open Instagram",
+      "lang_label": "Language"
+    }
+  },
+  "locations": [
+    {
+      "id": 1,
+      "slug": "yandex",
+      "name": "Yandex Maps",
+      "icon": "yandex",
+      "visible": true,
+      "sort": 1,
+      "map_url": "https://yandex.uz/maps/-/CTTSFRIg",
+      "review_url": "",
+      "open_label": {
+        "ru": "Открыть на карте",
+        "uz": "Xaritada ochish",
+        "en": "Open map"
+      },
+      "review_label": {
+        "ru": "Оставить отзыв",
+        "uz": "Fikr qoldirish",
+        "en": "Leave a review"
+      }
+    },
+    {
+      "id": 2,
+      "slug": "google",
+      "name": "Google Maps",
+      "icon": "google",
+      "visible": true,
+      "sort": 2,
+      "map_url": "https://www.google.com/maps/place/PITSTOP+Avto%26moto+community+caf%C3%A9,+%D0%9F%D0%B0%D1%80%D0%BE%D0%B2%D0%BE%D0%B7+%D0%A1%D1%83,+Little+Ring+Road+250,+Tashkent,+%D0%A3%D0%B7%D0%B5%D0%BA%D0%B8%D1%81%D1%82%D0%B0%D0%BD/@41.2948256,69.2902,16z/data=!3m1!1e3!4m6!3m5!1s0x38aef59bf9eb7127:0xefca7a637c2587e7!8m2!3d41.2948256!4d69.2902!16s%2Fg%2F11zcs0kr6g",
+      "review_url": "",
+      "open_label": {
+        "ru": "Открыть на карте",
+        "uz": "Xaritada ochish",
+        "en": "Open map"
+      },
+      "review_label": {
+        "ru": "Оставить отзыв",
+        "uz": "Fikr qoldirish",
+        "en": "Leave a review"
+      }
+    },
+    {
+      "id": 3,
+      "slug": "2gis",
+      "name": "2GIS",
+      "icon": "2gis",
+      "visible": true,
+      "sort": 3,
+      "map_url": "https://2gis.ru/tashkent/geo/70000001117470217",
+      "review_url": "",
+      "open_label": {
+        "ru": "Открыть на карте",
+        "uz": "Xaritada ochish",
+        "en": "Open map"
+      },
+      "review_label": {
+        "ru": "Оставить отзыв",
+        "uz": "Fikr qoldirish",
+        "en": "Leave a review"
+      }
+    },
+    {
+      "id": 4,
+      "slug": "tripadvisor",
+      "name": "Tripadvisor",
+      "icon": "tripadvisor",
+      "visible": true,
+      "sort": 4,
+      "map_url": "https://www.tripadvisor.ru/Restaurant_Review-g293968-d34560760-Reviews-PITSTOP_fastfood-Tashkent_Tashkent_Province.html",
+      "review_url": "",
+      "open_label": {
+        "ru": "Открыть на Tripadvisor",
+        "uz": "Tripadvisor’da ochish",
+        "en": "Open Tripadvisor"
+      },
+      "review_label": {
+        "ru": "Оставить отзыв",
+        "uz": "Fikr qoldirish",
+        "en": "Leave a review"
+      }
+    }
+  ],
+  "menu": [
+    {
+      "id": 1,
+      "slug": "coffee",
+      "visible": true,
+      "sort": 1,
+      "name": {
+        "ru": "Кофе",
+        "uz": "Qahva",
+        "en": "Coffee"
+      },
+      "note": {
+        "ru": "Уточняйте без кофеина и безлактозное молоко.",
+        "uz": "Kofeinsiz va laktozasiz sutni so‘rang.",
+        "en": "Ask for decaf and lactose-free milk."
+      },
+      "items": [
+        {
+          "id": 1,
+          "visible": true,
+          "name": {
+            "ru": "Эспрессо",
+            "uz": "Espresso",
+            "en": "Espresso"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "30 000",
+          "image": ""
+        },
+        {
+          "id": 2,
+          "visible": true,
+          "name": {
+            "ru": "Эспрессо тоник",
+            "uz": "Espresso tonik",
+            "en": "Espresso tonic"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "40 000",
+          "image": ""
+        },
+        {
+          "id": 3,
+          "visible": true,
+          "name": {
+            "ru": "Бамбл",
+            "uz": "Bumble",
+            "en": "Bumble"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "45 000",
+          "image": ""
+        },
+        {
+          "id": 4,
+          "visible": true,
+          "name": {
+            "ru": "Раф",
+            "uz": "Raf",
+            "en": "Raf"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "40 000",
+          "image": ""
+        },
+        {
+          "id": 5,
+          "visible": true,
+          "name": {
+            "ru": "Американо / Айс американо",
+            "uz": "Americano / Ice americano",
+            "en": "Americano / Iced americano"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "30 000",
+          "image": ""
+        },
+        {
+          "id": 6,
+          "visible": true,
+          "name": {
+            "ru": "Капучино / Айс капучино",
+            "uz": "Kapuchino / Ice kapuchino",
+            "en": "Cappuccino / Iced cappuccino"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "40 000",
+          "image": ""
+        },
+        {
+          "id": 7,
+          "visible": true,
+          "name": {
+            "ru": "Латте / Айс латте",
+            "uz": "Latte / Ice latte",
+            "en": "Latte / Iced latte"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "40 000",
+          "image": ""
+        },
+        {
+          "id": 8,
+          "visible": true,
+          "name": {
+            "ru": "Флет вайт",
+            "uz": "Flat white",
+            "en": "Flat white"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "40 000",
+          "image": ""
+        },
+        {
+          "id": 9,
+          "visible": true,
+          "name": {
+            "ru": "Какао",
+            "uz": "Kakao",
+            "en": "Cocoa"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "45 000",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "fresh",
+      "visible": true,
+      "sort": 2,
+      "name": {
+        "ru": "Фреши",
+        "uz": "Freshlar",
+        "en": "Fresh juices"
+      },
+      "note": {
+        "ru": "",
+        "uz": "",
+        "en": ""
+      },
+      "items": [
+        {
+          "id": 10,
+          "visible": true,
+          "name": {
+            "ru": "Яблочный",
+            "uz": "Olmali",
+            "en": "Apple"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "30 000",
+          "image": ""
+        },
+        {
+          "id": 11,
+          "visible": true,
+          "name": {
+            "ru": "Морковный",
+            "uz": "Sabzili",
+            "en": "Carrot"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "30 000",
+          "image": ""
+        },
+        {
+          "id": 12,
+          "visible": true,
+          "name": {
+            "ru": "Апельсиновый",
+            "uz": "Apelsinli",
+            "en": "Orange"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "50 000",
+          "image": ""
+        },
+        {
+          "id": 13,
+          "visible": true,
+          "name": {
+            "ru": "Свекольный",
+            "uz": "Lavlagi",
+            "en": "Beetroot"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "30 000",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "iced-tea",
+      "visible": true,
+      "sort": 3,
+      "name": {
+        "ru": "Айсти",
+        "uz": "Muzli choy",
+        "en": "Iced tea"
+      },
+      "note": {
+        "ru": "",
+        "uz": "",
+        "en": ""
+      },
+      "items": [
+        {
+          "id": 14,
+          "visible": true,
+          "name": {
+            "ru": "Жасмин-лимон",
+            "uz": "Yasmin-limon",
+            "en": "Jasmine-lemon"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "35 000",
+          "image": ""
+        },
+        {
+          "id": 15,
+          "visible": true,
+          "name": {
+            "ru": "Персик",
+            "uz": "Shaftoli",
+            "en": "Peach"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "35 000",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "drinks",
+      "visible": true,
+      "sort": 4,
+      "name": {
+        "ru": "Напитки",
+        "uz": "Ichimliklar",
+        "en": "Drinks"
+      },
+      "note": {
+        "ru": "",
+        "uz": "",
+        "en": ""
+      },
+      "items": [
+        {
+          "id": 16,
+          "visible": true,
+          "name": {
+            "ru": "Кола классик/зеро",
+            "uz": "Cola classic/zero",
+            "en": "Cola classic/zero"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "20 000",
+          "image": ""
+        },
+        {
+          "id": 17,
+          "visible": true,
+          "name": {
+            "ru": "Вода 0,5 с газом/без газа",
+            "uz": "Suv 0,5 gazli/gazsiz",
+            "en": "Water 0.5 sparkling/still"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "5 000",
+          "image": ""
+        },
+        {
+          "id": 18,
+          "visible": true,
+          "name": {
+            "ru": "Чорток 0,5",
+            "uz": "Chortok 0,5",
+            "en": "Chortok 0.5"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "15 000",
+          "image": ""
+        },
+        {
+          "id": 19,
+          "visible": true,
+          "name": {
+            "ru": "Hoegaarden 0%",
+            "uz": "Hoegaarden 0%",
+            "en": "Hoegaarden 0%"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "40 000",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "lemonades",
+      "visible": true,
+      "sort": 5,
+      "name": {
+        "ru": "Лимонады",
+        "uz": "Limonadlar",
+        "en": "Lemonades"
+      },
+      "note": {
+        "ru": "",
+        "uz": "",
+        "en": ""
+      },
+      "items": [
+        {
+          "id": 20,
+          "visible": true,
+          "name": {
+            "ru": "Мохито",
+            "uz": "Mojito",
+            "en": "Mojito"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "35 000",
+          "image": ""
+        },
+        {
+          "id": 21,
+          "visible": true,
+          "name": {
+            "ru": "Ягодный",
+            "uz": "Mevali",
+            "en": "Berry"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "35 000",
+          "image": ""
+        },
+        {
+          "id": 22,
+          "visible": true,
+          "name": {
+            "ru": "Клубника-маракуйя",
+            "uz": "Qulupnay-marakuya",
+            "en": "Strawberry-passion fruit"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "35 000",
+          "image": ""
+        },
+        {
+          "id": 23,
+          "visible": true,
+          "name": {
+            "ru": "Манго-маракуйя",
+            "uz": "Mango-marakuya",
+            "en": "Mango-passion fruit"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "35 000",
+          "image": ""
+        },
+        {
+          "id": 24,
+          "visible": true,
+          "name": {
+            "ru": "Сакура акира",
+            "uz": "Sakura Akira",
+            "en": "Sakura Akira"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "35 000",
+          "image": ""
+        },
+        {
+          "id": 25,
+          "visible": true,
+          "name": {
+            "ru": "Тархун",
+            "uz": "Tarxun",
+            "en": "Tarragon"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "35 000",
+          "image": ""
+        },
+        {
+          "id": 26,
+          "visible": true,
+          "name": {
+            "ru": "Содовая",
+            "uz": "Soda",
+            "en": "Soda"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "20 000",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "slug": "milkshakes",
+      "visible": true,
+      "sort": 6,
+      "name": {
+        "ru": "Милкшейки",
+        "uz": "Milkshake",
+        "en": "Milkshakes"
+      },
+      "note": {
+        "ru": "",
+        "uz": "",
+        "en": ""
+      },
+      "items": [
+        {
+          "id": 27,
+          "visible": true,
+          "name": {
+            "ru": "Банановый",
+            "uz": "Bananli",
+            "en": "Banana"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "50 000",
+          "image": ""
+        },
+        {
+          "id": 28,
+          "visible": true,
+          "name": {
+            "ru": "Oreo",
+            "uz": "Oreo",
+            "en": "Oreo"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "50 000",
+          "image": ""
+        },
+        {
+          "id": 29,
+          "visible": true,
+          "name": {
+            "ru": "Ягодный",
+            "uz": "Mevali",
+            "en": "Berry"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "50 000",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "slug": "tea",
+      "visible": true,
+      "sort": 7,
+      "name": {
+        "ru": "Чай",
+        "uz": "Choy",
+        "en": "Tea"
+      },
+      "note": {
+        "ru": "",
+        "uz": "",
+        "en": ""
+      },
+      "items": [
+        {
+          "id": 30,
+          "visible": true,
+          "name": {
+            "ru": "Чай черный / зеленый",
+            "uz": "Qora / yashil choy",
+            "en": "Black / green tea"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "25 000",
+          "image": ""
+        },
+        {
+          "id": 31,
+          "visible": true,
+          "name": {
+            "ru": "Молочный улун",
+            "uz": "Sutli ulun",
+            "en": "Milk oolong"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "40 000",
+          "image": ""
+        },
+        {
+          "id": 32,
+          "visible": true,
+          "name": {
+            "ru": "Пуэр",
+            "uz": "Puer",
+            "en": "Pu-erh"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "40 000",
+          "image": ""
+        },
+        {
+          "id": 33,
+          "visible": true,
+          "name": {
+            "ru": "Чай купажированный",
+            "uz": "Kupaj choy",
+            "en": "Blended tea"
+          },
+          "description": {
+            "ru": "Ягодный, марокканский, облепиховый, имбирный",
+            "uz": "Mevali, marokash, chakana, zanjabil",
+            "en": "Berry, Moroccan, sea buckthorn, ginger"
+          },
+          "price": "50 000",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "slug": "breakfast",
+      "visible": true,
+      "sort": 8,
+      "name": {
+        "ru": "Завтраки",
+        "uz": "Nonushta",
+        "en": "Breakfast"
+      },
+      "note": {
+        "ru": "С 03:00 до 15:00",
+        "uz": "03:00 dan 15:00 gacha",
+        "en": "From 03:00 to 15:00"
+      },
+      "items": [
+        {
+          "id": 34,
+          "visible": true,
+          "name": {
+            "ru": "Омлет из 3х яиц с колбаской",
+            "uz": "3 tuxumli omlet kolbasa bilan",
+            "en": "3-egg omelette with sausage"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "75 000",
+          "image": ""
+        },
+        {
+          "id": 35,
+          "visible": true,
+          "name": {
+            "ru": "Шакшука",
+            "uz": "Shakshuka",
+            "en": "Shakshuka"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "75 000",
+          "image": ""
+        },
+        {
+          "id": 36,
+          "visible": true,
+          "name": {
+            "ru": "Блинчики (1шт)",
+            "uz": "Blinchik (1 dona)",
+            "en": "Pancake (1 pc)"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "10 000",
+          "image": ""
+        },
+        {
+          "id": 37,
+          "visible": true,
+          "name": {
+            "ru": "Сырники (1шт)",
+            "uz": "Sirniki (1 dona)",
+            "en": "Syrniki (1 pc)"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "15 000",
+          "image": ""
+        },
+        {
+          "id": 38,
+          "visible": true,
+          "name": {
+            "ru": "Каша овсяная",
+            "uz": "Jo‘xori bo‘tqasi",
+            "en": "Oatmeal"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "40 000",
+          "image": ""
+        },
+        {
+          "id": 39,
+          "visible": true,
+          "name": {
+            "ru": "Каша рисовая",
+            "uz": "Guruch bo‘tqasi",
+            "en": "Rice porridge"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "40 000",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "slug": "tuning",
+      "visible": true,
+      "sort": 9,
+      "name": {
+        "ru": "Тюннинг",
+        "uz": "Tyuning",
+        "en": "Tuning"
+      },
+      "note": {
+        "ru": "Добавки к завтракам. Цена в печатном меню не указана.",
+        "uz": "Nonushtaga qo‘shimchalar. Bosma menyuda narx yo‘q.",
+        "en": "Breakfast extras. No price on the printed menu."
+      },
+      "items": [
+        {
+          "id": 40,
+          "visible": true,
+          "name": {
+            "ru": "Мёд",
+            "uz": "Asal",
+            "en": "Honey"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "",
+          "image": ""
+        },
+        {
+          "id": 41,
+          "visible": true,
+          "name": {
+            "ru": "Сметана",
+            "uz": "Smetana",
+            "en": "Sour cream"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "",
+          "image": ""
+        },
+        {
+          "id": 42,
+          "visible": true,
+          "name": {
+            "ru": "Джем",
+            "uz": "Jem",
+            "en": "Jam"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "",
+          "image": ""
+        },
+        {
+          "id": 43,
+          "visible": true,
+          "name": {
+            "ru": "Шоколад",
+            "uz": "Shokolad",
+            "en": "Chocolate"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "slug": "soups",
+      "visible": true,
+      "sort": 10,
+      "name": {
+        "ru": "Супы",
+        "uz": "Sho‘rvalar",
+        "en": "Soups"
+      },
+      "note": {
+        "ru": "",
+        "uz": "",
+        "en": ""
+      },
+      "items": [
+        {
+          "id": 44,
+          "visible": true,
+          "name": {
+            "ru": "Грибной крем",
+            "uz": "Qo‘ziqorin kremi",
+            "en": "Mushroom cream"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "45 000",
+          "image": ""
+        },
+        {
+          "id": 45,
+          "visible": true,
+          "name": {
+            "ru": "Чечевичный",
+            "uz": "Yasmiq",
+            "en": "Lentil"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "45 000",
+          "image": ""
+        },
+        {
+          "id": 46,
+          "visible": true,
+          "name": {
+            "ru": "Мастава",
+            "uz": "Mastava",
+            "en": "Mastava"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "45 000",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "slug": "sandwiches",
+      "visible": true,
+      "sort": 11,
+      "name": {
+        "ru": "Сендвичи",
+        "uz": "Sendvichlar",
+        "en": "Sandwiches"
+      },
+      "note": {
+        "ru": "",
+        "uz": "",
+        "en": ""
+      },
+      "items": [
+        {
+          "id": 47,
+          "visible": true,
+          "name": {
+            "ru": "Клаб куриный с фри",
+            "uz": "Tovuqli klub fri bilan",
+            "en": "Chicken club with fries"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "95 000",
+          "image": ""
+        },
+        {
+          "id": 48,
+          "visible": true,
+          "name": {
+            "ru": "С тунцом",
+            "uz": "Tunasli",
+            "en": "Tuna"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "95 000",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "slug": "hotdogs",
+      "visible": true,
+      "sort": 12,
+      "name": {
+        "ru": "Хот-доги",
+        "uz": "Hot-doglar",
+        "en": "Hot dogs"
+      },
+      "note": {
+        "ru": "",
+        "uz": "",
+        "en": ""
+      },
+      "items": [
+        {
+          "id": 49,
+          "visible": true,
+          "name": {
+            "ru": "С куриной колбаской",
+            "uz": "Tovuq kolbasa bilan",
+            "en": "With chicken sausage"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "65 000",
+          "image": ""
+        },
+        {
+          "id": 50,
+          "visible": true,
+          "name": {
+            "ru": "С говяжьей колбаской",
+            "uz": "Mol kolbasa bilan",
+            "en": "With beef sausage"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "65 000",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "slug": "burgers",
+      "visible": true,
+      "sort": 13,
+      "name": {
+        "ru": "Бургеры",
+        "uz": "Burgerlar",
+        "en": "Burgers"
+      },
+      "note": {
+        "ru": "",
+        "uz": "",
+        "en": ""
+      },
+      "items": [
+        {
+          "id": 51,
+          "visible": true,
+          "name": {
+            "ru": "Стейк бургер",
+            "uz": "Steyk burger",
+            "en": "Steak burger"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "100 000",
+          "image": ""
+        },
+        {
+          "id": 52,
+          "visible": true,
+          "name": {
+            "ru": "Стейк чиз бургер",
+            "uz": "Steyk chiz burger",
+            "en": "Steak cheeseburger"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "110 000",
+          "image": ""
+        },
+        {
+          "id": 53,
+          "visible": true,
+          "name": {
+            "ru": "Чизбургер с котлетой",
+            "uz": "Kotletli chizburger",
+            "en": "Cheeseburger with patty"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "65 000",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "slug": "salads",
+      "visible": true,
+      "sort": 14,
+      "name": {
+        "ru": "Салаты",
+        "uz": "Salatlar",
+        "en": "Salads"
+      },
+      "note": {
+        "ru": "",
+        "uz": "",
+        "en": ""
+      },
+      "items": [
+        {
+          "id": 54,
+          "visible": true,
+          "name": {
+            "ru": "Греческий",
+            "uz": "Yunon",
+            "en": "Greek"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "70 000",
+          "image": ""
+        },
+        {
+          "id": 55,
+          "visible": true,
+          "name": {
+            "ru": "Цезарь с курицей",
+            "uz": "Tovuqli sezar",
+            "en": "Caesar with chicken"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "80 000",
+          "image": ""
+        },
+        {
+          "id": 56,
+          "visible": true,
+          "name": {
+            "ru": "С тунцом",
+            "uz": "Tunasli",
+            "en": "Tuna"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "85 000",
+          "image": ""
+        },
+        {
+          "id": 57,
+          "visible": true,
+          "name": {
+            "ru": "Кимчи",
+            "uz": "Kimchi",
+            "en": "Kimchi"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "30 000",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "slug": "asian",
+      "visible": true,
+      "sort": 15,
+      "name": {
+        "ru": "Азиатка",
+        "uz": "Osiyo taomlari",
+        "en": "Asian"
+      },
+      "note": {
+        "ru": "",
+        "uz": "",
+        "en": ""
+      },
+      "items": [
+        {
+          "id": 58,
+          "visible": true,
+          "name": {
+            "ru": "Рамен с говядиной / с сыром",
+            "uz": "Mol go‘shtli ramen / pishloqli",
+            "en": "Beef ramen / with cheese"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "95 000 / 105 000",
+          "image": ""
+        },
+        {
+          "id": 59,
+          "visible": true,
+          "name": {
+            "ru": "Рамен с курицей / с сыром",
+            "uz": "Tovuqli ramen / pishloqli",
+            "en": "Chicken ramen / with cheese"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "90 000 / 100 000",
+          "image": ""
+        },
+        {
+          "id": 60,
+          "visible": true,
+          "name": {
+            "ru": "Жареный рамен",
+            "uz": "Qovurilgan ramen",
+            "en": "Fried ramen"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "100 000",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "slug": "steaks",
+      "visible": true,
+      "sort": 16,
+      "name": {
+        "ru": "Стейки",
+        "uz": "Steyklar",
+        "en": "Steaks"
+      },
+      "note": {
+        "ru": "",
+        "uz": "",
+        "en": ""
+      },
+      "items": [
+        {
+          "id": 61,
+          "visible": true,
+          "name": {
+            "ru": "Рибай без кости",
+            "uz": "Suyaksiz ribay",
+            "en": "Boneless ribeye"
+          },
+          "description": {
+            "ru": "Предзаказ. 75 000 / 100 гр",
+            "uz": "Oldindan buyurtma. 75 000 / 100 g",
+            "en": "Pre-order. 75 000 / 100 g"
+          },
+          "price": "75 000 / 100 гр",
+          "image": ""
+        },
+        {
+          "id": 62,
+          "visible": true,
+          "name": {
+            "ru": "Тибон",
+            "uz": "T-bone",
+            "en": "T-bone"
+          },
+          "description": {
+            "ru": "Предзаказ. 75 000 / 100 гр",
+            "uz": "Oldindan buyurtma. 75 000 / 100 g",
+            "en": "Pre-order. 75 000 / 100 g"
+          },
+          "price": "75 000 / 100 гр",
+          "image": ""
+        },
+        {
+          "id": 63,
+          "visible": true,
+          "name": {
+            "ru": "Куриная грудка с фри",
+            "uz": "Tovuq ko‘kragi fri bilan",
+            "en": "Chicken breast with fries"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "110 000",
+          "image": ""
+        },
+        {
+          "id": 64,
+          "visible": true,
+          "name": {
+            "ru": "Куриные бедра с фри",
+            "uz": "Tovuq soni fri bilan",
+            "en": "Chicken thighs with fries"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "110 000",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "slug": "homemade",
+      "visible": true,
+      "sort": 17,
+      "name": {
+        "ru": "Домашка",
+        "uz": "Uy taomlari",
+        "en": "Homestyle"
+      },
+      "note": {
+        "ru": "",
+        "uz": "",
+        "en": ""
+      },
+      "items": [
+        {
+          "id": 65,
+          "visible": true,
+          "name": {
+            "ru": "Пельмени 0,7 / 1 порц",
+            "uz": "Pelmen 0,7 / 1 porsiya",
+            "en": "Pelmeni 0.7 / 1 portion"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "70 000 / 90 000",
+          "image": ""
+        },
+        {
+          "id": 66,
+          "visible": true,
+          "name": {
+            "ru": "Вареники с картошкой",
+            "uz": "Kartoshkali vareniki",
+            "en": "Potato vareniki"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "60 000",
+          "image": ""
+        },
+        {
+          "id": 67,
+          "visible": true,
+          "name": {
+            "ru": "Вареники с вишней",
+            "uz": "Olchali vareniki",
+            "en": "Cherry vareniki"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "60 000",
+          "image": ""
+        },
+        {
+          "id": 68,
+          "visible": true,
+          "name": {
+            "ru": "Вареники с творогом",
+            "uz": "Tvorogli vareniki",
+            "en": "Cottage cheese vareniki"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "60 000",
+          "image": ""
+        },
+        {
+          "id": 69,
+          "visible": true,
+          "name": {
+            "ru": "Картошка по-домашнему",
+            "uz": "Uy usulidagi kartoshka",
+            "en": "Homestyle potatoes"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "125 000",
+          "image": ""
+        },
+        {
+          "id": 70,
+          "visible": true,
+          "name": {
+            "ru": "Куриные крылышки",
+            "uz": "Tovuq qanotlari",
+            "en": "Chicken wings"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "90 000",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "slug": "other",
+      "visible": true,
+      "sort": 18,
+      "name": {
+        "ru": "Прочее",
+        "uz": "Boshqa",
+        "en": "Sides"
+      },
+      "note": {
+        "ru": "",
+        "uz": "",
+        "en": ""
+      },
+      "items": [
+        {
+          "id": 71,
+          "visible": true,
+          "name": {
+            "ru": "Хлеб",
+            "uz": "Non",
+            "en": "Bread"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "5 000",
+          "image": ""
+        },
+        {
+          "id": 72,
+          "visible": true,
+          "name": {
+            "ru": "Картошка фри",
+            "uz": "Kartoshka fri",
+            "en": "French fries"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "25 000",
+          "image": ""
+        },
+        {
+          "id": 73,
+          "visible": true,
+          "name": {
+            "ru": "Ассорти к пиву",
+            "uz": "Pivoga assorti",
+            "en": "Beer assortment"
+          },
+          "description": {
+            "ru": "",
+            "uz": "",
+            "en": ""
+          },
+          "price": "70 000",
+          "image": ""
+        }
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "id": 1,
+      "src": "images/hero/hero-night.jpg",
+      "section": "hero",
+      "visible": true,
+      "sort": 1,
+      "alt": {
+        "ru": "Ночной фасад PITSTOP и мотоцикл у входа",
+        "uz": "PITSTOP tungi fasadi va eshik oldidagi mototsikl",
+        "en": "PITSTOP night facade and a motorcycle at the entrance"
+      }
+    },
+    {
+      "id": 2,
+      "src": "images/auto-moto/bikes-lineup.jpg",
+      "section": "auto-moto",
+      "visible": true,
+      "sort": 2,
+      "alt": {
+        "ru": "Мотоциклы у PITSTOP ночью",
+        "uz": "PITSTOP oldida tungi mototsikllar",
+        "en": "Motorcycles lined up at PITSTOP at night"
+      }
+    },
+    {
+      "id": 3,
+      "src": "images/atmosphere/riders-night.jpg",
+      "section": "atmosphere",
+      "visible": true,
+      "sort": 3,
+      "alt": {
+        "ru": "Байкеры у входа PITSTOP",
+        "uz": "PITSTOP eshigi oldidagi baykerlar",
+        "en": "Riders at the PITSTOP entrance"
+      }
+    },
+    {
+      "id": 4,
+      "src": "images/atmosphere/terrace-night.jpg",
+      "section": "atmosphere",
+      "visible": true,
+      "sort": 4,
+      "alt": {
+        "ru": "Ночная терраса PITSTOP",
+        "uz": "PITSTOP tungi terrasi",
+        "en": "PITSTOP terrace at night"
+      }
+    },
+    {
+      "id": 5,
+      "src": "images/atmosphere/hammock.jpg",
+      "section": "atmosphere",
+      "visible": true,
+      "sort": 5,
+      "alt": {
+        "ru": "Гамак во дворе PITSTOP",
+        "uz": "PITSTOP hovlisidagi hammak",
+        "en": "Hammock in the PITSTOP yard"
+      }
+    },
+    {
+      "id": 6,
+      "src": "images/atmosphere/salad-bikes.jpg",
+      "section": "atmosphere",
+      "visible": true,
+      "sort": 6,
+      "alt": {
+        "ru": "Салат на фоне мотоциклов у PITSTOP",
+        "uz": "PITSTOP oldidagi mototsikllar fonida salat",
+        "en": "Salad with motorcycles outside PITSTOP"
+      }
+    },
+    {
+      "id": 7,
+      "src": "images/atmosphere/facade-tables.jpg",
+      "section": "atmosphere",
+      "visible": true,
+      "sort": 7,
+      "alt": {
+        "ru": "Столики у витрины PITSTOP",
+        "uz": "PITSTOP vitrinasi oldidagi stollar",
+        "en": "Tables by the PITSTOP window"
+      }
+    },
+    {
+      "id": 8,
+      "src": "images/atmosphere/helmet-interior.jpg",
+      "section": "atmosphere",
+      "visible": true,
+      "sort": 8,
+      "alt": {
+        "ru": "Интерьер PITSTOP, шлем и мото-декор",
+        "uz": "PITSTOP interyeri, dubulg‘a va moto-dekor",
+        "en": "PITSTOP interior with a helmet and moto decor"
+      }
+    },
+    {
+      "id": 9,
+      "src": "images/atmosphere/street-bikes.jpg",
+      "section": "atmosphere",
+      "visible": true,
+      "sort": 9,
+      "alt": {
+        "ru": "PITSTOP со стороны дороги",
+        "uz": "Yo‘ldan PITSTOP ko‘rinishi",
+        "en": "PITSTOP from the street"
+      }
+    },
+    {
+      "id": 10,
+      "src": "images/menu/menu-bar.jpg",
+      "section": "menu-board",
+      "visible": true,
+      "sort": 10,
+      "alt": {
+        "ru": "Барное меню PITSTOP",
+        "uz": "PITSTOP bar menyusi",
+        "en": "PITSTOP bar menu"
+      }
+    },
+    {
+      "id": 11,
+      "src": "images/menu/menu-kitchen.jpg",
+      "section": "menu-board",
+      "visible": true,
+      "sort": 11,
+      "alt": {
+        "ru": "Кухонное меню PITSTOP",
+        "uz": "PITSTOP oshxona menyusi",
+        "en": "PITSTOP kitchen menu"
+      }
+    }
+  ]
+}

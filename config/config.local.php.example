@@ -1,0 +1,10 @@
+<?php
+
+declare(strict_types=1);
+
+/**
+ * Copy this file to config.local.php on the server if you need overrides.
+ * Do not commit config.local.php.
+ */
+
+// ini_set('session.cookie_secure', '1');

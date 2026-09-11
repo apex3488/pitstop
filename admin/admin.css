@@ -1,0 +1,46 @@
+/* PITSTOP admin — layout extras only; visual system comes from site.css */
+
+#admin-app[hidden],
+#login-form[hidden] {
+    display: none !important;
+}
+
+.admin-page #login-form {
+    display: none !important;
+}
+
+.auth-page #admin-app {
+    display: none !important;
+}
+
+.thumb {
+    display: block;
+    max-width: 220px;
+    max-height: 140px;
+    object-fit: cover;
+    margin: 8px 0;
+    border-radius: 8px;
+}
+
+.admin-main .field {
+    display: block;
+    margin: 8px 0;
+}
+
+.admin-main .field span {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.admin-main input,
+.admin-main textarea,
+.admin-main select {
+    width: 100%;
+}
+
+.admin-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+}

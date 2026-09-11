@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вход — PITSTOP Admin</title>
+    <link rel="icon" href="../images/other/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&family=Teko:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/site.css?v=2">
+    <link rel="stylesheet" href="admin.css?v=2">
+</head>
+<body class="auth-page" data-admin-root>
+    <form class="auth-card" id="login-form" autocomplete="on">
+        <div class="kicker">PITSTOP ADMIN</div>
+        <h1>Вход</h1>
+        <p class="tiny">Панель управления сайтом. Пароль проверяется на Cloudflare Worker, не в браузере.</p>
+        <div class="alert error" id="login-error" hidden></div>
+        <label class="field">
+            <span>Логин</span>
+            <input name="username" required minlength="3" autocomplete="username">
+        </label>
+        <label class="field">
+            <span>Пароль</span>
+            <input type="password" name="password" required autocomplete="current-password">
+        </label>
+        <button class="btn btn-primary" type="submit" style="width:100%;margin-top:8px">Войти</button>
+        <p class="tiny" style="margin-top:16px"><a href="../index.html">На сайт</a></p>
+    </form>
+
+    <div class="admin-shell" id="admin-app" hidden>
+        <aside class="admin-side">
+            <a class="brand" href="#overview"><strong>PITSTOP</strong><span>admin</span></a>
+            <a href="#overview" data-nav="overview" class="active">Обзор</a>
+            <a href="#menu" data-nav="menu">Меню</a>
+            <a href="#gallery" data-nav="gallery">Галерея</a>
+            <a href="#content" data-nav="content">Тексты</a>
+            <a href="#location" data-nav="location">Локация</a>
+            <a href="#settings" data-nav="settings">Настройки</a>
+            <a href="#logout" id="logout-link">Выход</a>
+        </aside>
+        <main class="admin-main">
+            <p class="tiny" id="who">Вы вошли как администратор</p>
+            <h1 class="display" id="page-title" style="font-size:42px;margin:8px 0 18px">Обзор</h1>
+            <div class="alert" id="flash" hidden></div>
+            <div id="view"></div>
+        </main>
+    </div>
+
+    <script src="../js/config.js"></script>
+    <script src="admin.js"></script>
+</body>
+</html>

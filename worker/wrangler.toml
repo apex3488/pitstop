@@ -1,0 +1,12 @@
+name = "pitstop-api"
+main = "src/index.js"
+compatibility_date = "2024-12-01"
+
+[vars]
+GITHUB_OWNER = "YOUR_GITHUB_USERNAME"
+GITHUB_REPO = "YOUR_REPO_NAME"
+GITHUB_BRANCH = "main"
+
+# Secrets (wrangler secret put):
+# GITHUB_TOKEN
+# ADMIN_PASSWORD

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PITSTOP — Auto & Moto Community Café</title>
+    <meta name="description" content="PITSTOP — auto&moto community café в Ташкенте. Кафе, где встречаются автомобили, мотоциклы и атмосфера community. Работаем 24/7.">
+    <meta name="theme-color" content="#070708">
+    <meta property="og:title" content="PITSTOP — Auto & Moto Community Café">
+    <meta property="og:description" content="PITSTOP — auto&moto community café в Ташкенте. Кафе, где встречаются автомобили, мотоциклы и атмосфера community. Работаем 24/7.">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="PITSTOP">
+    <meta property="og:image" content="images/hero/hero-night.jpg">
+    <link rel="icon" href="images/other/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Teko:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+<a class="skip-link" href="#home" data-ui="nav_home">Главная</a>
+
+<header class="site-header">
+    <div class="header-inner">
+        <a class="brand" href="#home" aria-label="PITSTOP">
+            <strong>PITSTOP</strong>
+            <span>auto & moto</span>
+        </a>
+        <nav class="desktop-nav" aria-label="PITSTOP" data-desktop-nav></nav>
+        <div class="header-actions">
+            <div class="lang" role="navigation" data-lang-label aria-label="Язык">
+                <a href="?lang=ru" data-lang="ru">RU</a>
+                <a href="?lang=uz" data-lang="uz">UZ</a>
+                <a href="?lang=en" data-lang="en">EN</a>
+            </div>
+            <a class="cta-header" href="#menu" data-ui="cta_menu">Смотреть меню</a>
+            <button class="burger" type="button" data-burger aria-expanded="false" data-ui-aria="open_menu">
+                <i></i><i></i>
+            </button>
+        </div>
+    </div>
+</header>
+
+<nav class="mobile-nav" data-mobile-nav aria-hidden="true"></nav>
+
+<main>
+<section class="hero" id="home">
+    <div class="hero-media">
+        <img data-hero-img src="images/hero/hero-night.jpg" alt="PITSTOP night facade" fetchpriority="high">
+    </div>
+    <div class="hero-shade"></div>
+    <div class="hero-lines" aria-hidden="true"></div>
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="hero-copy">
+        <div class="kicker reveal" data-content="hero_kicker">AUTO & MOTO COMMUNITY CAFÉ</div>
+        <h1 class="reveal" data-content-html="hero_title">Ночная точка<br>для своих.</h1>
+        <p class="reveal" data-content="hero_text"></p>
+        <div class="hero-actions reveal">
+            <a class="btn btn-primary" href="#menu" data-ui="cta_menu">Смотреть меню</a>
+            <a class="btn btn-ghost" href="#location" data-ui="cta_find">Как нас найти</a>
+        </div>
+    </div>
+    <p class="hero-lockup">
+        <span class="hero-lockup-name">PITSTOP</span>
+        <span class="hero-lockup-sub">avto&amp;moto community café</span>
+    </p>
+    <div class="ticker" aria-hidden="true">
+        <span>PITSTOP · 24/7 · AUTO · MOTO · COMMUNITY · CAFÉ · FOOD · CHILL · PLAY · PITSTOP · 24/7 · AUTO · MOTO · COMMUNITY · CAFÉ · FOOD · CHILL · PLAY · </span>
+    </div>
+</section>
+
+<section class="section about" id="about">
+    <div class="wrap about-grid">
+        <div>
+            <div class="kicker" data-content="about_kicker">COMMUNITY</div>
+            <h2 class="display" data-content-html="about_title"></h2>
+            <p class="lede" data-content="about_text"></p>
+            <div class="chip-row">
+                <span class="chip">24/7</span>
+                <span class="chip">Food</span>
+                <span class="chip">Chill</span>
+                <span class="chip">Play</span>
+                <span class="chip">Coffee</span>
+                <span class="chip">Take away</span>
+            </div>
+        </div>
+        <div class="about-photos">
+            <div class="frame tall">
+                <img data-about-img src="images/atmosphere/terrace-night.jpg" alt="PITSTOP" loading="lazy">
+            </div>
+            <div class="frame">
+                <img data-about-img-2 src="images/atmosphere/hammock.jpg" alt="PITSTOP" loading="lazy">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section menu-section" id="menu">
+    <div class="wrap">
+        <div class="menu-head">
+            <div class="kicker" data-content="menu_kicker">MENU</div>
+            <h2 class="display" data-content="menu_title"></h2>
+            <p class="lede" data-content="menu_text"></p>
+            <p class="tiny" data-ui="menu_note"></p>
+        </div>
+        <div class="cats" role="tablist" data-cats></div>
+        <div data-menu-panels></div>
+        <div class="menu-boards" data-menu-boards></div>
+    </div>
+</section>
+
+<section class="section atmosphere" id="atmosphere">
+    <div class="wrap">
+        <div class="kicker" data-content="gallery_kicker">ATMOSPHERE</div>
+        <h2 class="display" data-content="gallery_title"></h2>
+        <p class="lede" data-content="gallery_text"></p>
+        <div class="gallery-scroll" data-gallery-scroll></div>
+    </div>
+</section>
+
+<section class="section moto" id="moto">
+    <div class="moto-bg">
+        <img data-moto-img src="images/auto-moto/bikes-lineup.jpg" alt="PITSTOP auto moto" loading="lazy">
+    </div>
+    <div class="moto-shade"></div>
+    <div class="wrap">
+        <div class="kicker" data-content="moto_kicker">AUTO & MOTO</div>
+        <h2 class="display" data-content-html="moto_title"></h2>
+        <p class="lede" data-content="moto_text"></p>
+    </div>
+</section>
+
+<section class="section location" id="location">
+    <div class="wrap">
+        <div class="kicker" data-content="location_kicker">LOCATION</div>
+        <h2 class="display" data-content="location_title"></h2>
+        <p class="lede" data-content="location_text"></p>
+        <p class="lede" data-address></p>
+        <div class="loc-grid" data-locations></div>
+    </div>
+</section>
+
+<section class="section instagram" id="instagram">
+    <div class="wrap">
+        <div class="ig-box">
+            <div>
+                <div class="kicker" data-content="instagram_kicker">INSTAGRAM</div>
+                <h2 class="display" data-content="instagram_title"></h2>
+                <p class="lede" data-content="instagram_text"></p>
+                <div class="handle" data-ig-handle>@pitstop_avtomotocafe</div>
+            </div>
+            <a class="btn btn-primary" data-ig-link href="https://www.instagram.com/pitstop_avtomotocafe/" target="_blank" rel="noopener noreferrer" data-ui="open_instagram">Открыть Instagram</a>
+        </div>
+    </div>
+</section>
+</main>
+
+<footer class="site-footer">
+    <div class="wrap footer-inner">
+        <div>
+            <div class="footer-brand">PITSTOP</div>
+            <div data-content="footer_tag">auto&amp;moto community café</div>
+        </div>
+        <div data-ui="hours">Работаем 24/7</div>
+    </div>
+</footer>
+
+<div class="lightbox" data-lightbox role="dialog" aria-modal="true">
+    <div class="lb-ui">
+        <button type="button" data-close aria-label="Закрыть">✕</button>
+    </div>
+    <img alt="">
+    <div class="lb-nav">
+        <button type="button" data-prev aria-label="Назад">←</button>
+        <button type="button" data-next aria-label="Дальше">→</button>
+    </div>
+</div>
+
+<script src="js/config.js"></script>
+<script src="assets/js/site.js"></script>
+</body>
+</html>
