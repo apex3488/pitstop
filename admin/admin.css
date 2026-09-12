@@ -13,6 +13,22 @@
     display: none !important;
 }
 
+.admin-brand {
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.admin-side .admin-brand .brand-logo {
+    width: 150px;
+}
+
+.admin-side .admin-brand .brand-admin-label {
+    padding: 0;
+    color: var(--gold);
+    font-size: 9px;
+    letter-spacing: 0.22em;
+}
+
 .thumb {
     display: block;
     max-width: 220px;

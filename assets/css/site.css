@@ -112,22 +112,13 @@ button {
 .brand {
     display: flex;
     flex-direction: column;
-    line-height: 0.85;
-    letter-spacing: 0.08em;
+    justify-content: center;
 }
 
-.brand strong {
-    font-family: var(--font-display);
-    font-size: 30px;
-    font-weight: 600;
-    color: var(--white);
-}
-
-.brand span {
-    font-size: 10px;
-    letter-spacing: 0.22em;
-    color: var(--gold);
-    text-transform: uppercase;
+.brand-logo {
+    display: block;
+    width: 112px;
+    height: auto;
 }
 
 .desktop-nav {
@@ -308,27 +299,14 @@ body.nav-open {
     right: 16px;
     bottom: 52px;
     z-index: 2;
-    text-align: right;
     pointer-events: none;
 }
 
-.hero-lockup-name {
+.hero-lockup-logo {
     display: block;
-    font-family: var(--font-display);
-    font-size: clamp(28px, 6vw, 52px);
-    letter-spacing: 0.14em;
-    line-height: 0.9;
-    color: var(--white);
-    text-shadow: 0 8px 28px rgba(0, 0, 0, 0.55);
-}
-
-.hero-lockup-sub {
-    display: block;
-    margin-top: 6px;
-    font-size: 10px;
-    letter-spacing: 0.16em;
-    text-transform: lowercase;
-    color: var(--gold);
+    width: clamp(136px, 18vw, 220px);
+    height: auto;
+    filter: drop-shadow(0 8px 28px rgba(0, 0, 0, 0.65));
 }
 
 .kicker {
@@ -384,6 +362,16 @@ body.nav-open {
 
     .hero-lockup {
         bottom: 54px;
+    }
+
+    .hero-lockup-logo {
+        width: 136px;
+    }
+}
+
+@media (max-width: 359px) {
+    .site-header .brand-logo {
+        width: 92px;
     }
 }
 
@@ -841,11 +829,10 @@ section[id],
     gap: 12px;
 }
 
-.footer-brand {
-    font-family: var(--font-display);
-    letter-spacing: 0.16em;
-    color: var(--white);
-    font-size: 22px;
+.footer-logo {
+    display: block;
+    width: min(230px, 58vw);
+    height: auto;
 }
 
 .lightbox {
@@ -1021,6 +1008,22 @@ section[id],
     border: 1px solid var(--line);
 }
 
+.auth-logo {
+    display: block;
+    width: min(280px, 100%);
+    height: auto;
+    margin: 0 auto 12px;
+}
+
+.auth-admin-label {
+    margin-bottom: 14px;
+    color: var(--gold);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.24em;
+    text-align: center;
+}
+
 .auth-card h1 {
     font-family: var(--font-display);
     font-size: 42px;
@@ -1139,8 +1142,8 @@ button {
     transition: color 0.2s var(--ease), background 0.2s var(--ease), border-color 0.2s var(--ease), box-shadow 0.2s var(--ease), transform 0.2s var(--ease), filter 0.2s var(--ease);
 }
 
-.brand:hover strong {
-    color: var(--gold-soft);
+.brand:hover .brand-logo {
+    filter: drop-shadow(0 0 12px rgba(212, 160, 84, 0.28));
 }
 
 .desktop-nav a:hover,

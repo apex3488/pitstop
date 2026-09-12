@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Вход — PITSTOP Admin</title>
-    <link rel="icon" href="../images/other/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="../images/other/favicon.png" type="image/png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&family=Teko:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../assets/css/site.css?v=2">
-    <link rel="stylesheet" href="admin.css?v=2">
+    <link rel="stylesheet" href="../assets/css/site.css?v=5">
+    <link rel="stylesheet" href="admin.css?v=3">
 </head>
 <body class="auth-page" data-admin-root>
     <form class="auth-card" id="login-form" autocomplete="on">
-        <div class="kicker">PITSTOP ADMIN</div>
+        <img class="auth-logo" src="../images/other/pitstop-logo.png" alt="PITSTOP avto&amp;moto community café">
+        <div class="auth-admin-label">ADMIN</div>
         <h1>Вход</h1>
         <p class="tiny">Панель управления сайтом. Пароль проверяется на Cloudflare Worker, не в браузере.</p>
         <div class="alert error" id="login-error" hidden></div>
@@ -30,7 +31,10 @@
 
     <div class="admin-shell" id="admin-app" hidden aria-hidden="true">
         <aside class="admin-side">
-            <a class="brand" href="#overview"><strong>PITSTOP</strong><span>admin</span></a>
+            <a class="brand admin-brand" href="#overview">
+                <img class="brand-logo" src="../images/other/pitstop-logo.png" alt="PITSTOP avto&amp;moto community café">
+                <span class="brand-admin-label">admin</span>
+            </a>
             <a href="#overview" data-nav="overview" class="active">Обзор</a>
             <a href="#menu" data-nav="menu">Меню</a>
             <a href="#gallery" data-nav="gallery">Галерея</a>
