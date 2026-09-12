@@ -198,7 +198,13 @@
             el.textContent = pick(content[el.getAttribute("data-content")], lang);
         });
         document.querySelectorAll("[data-content-html]").forEach((el) => {
-            el.innerHTML = withBreaks(pick(content[el.getAttribute("data-content-html")], lang));
+            const key = el.getAttribute("data-content-html");
+            const value = pick(content[key], lang);
+            if (key === "moto_title" && value.startsWith("PITSTOP")) {
+                el.innerHTML = `<span class="moto-wordmark">PITSTOP</span>${withBreaks(value.slice(7))}`;
+            } else {
+                el.innerHTML = withBreaks(value);
+            }
         });
 
         document.querySelectorAll("[data-lang]").forEach((a) => {

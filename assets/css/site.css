@@ -739,6 +739,17 @@ section[id],
     max-width: 16ch;
 }
 
+.moto-wordmark {
+    display: inline-block;
+    width: 4.12em;
+    height: 0.78em;
+    overflow: hidden;
+    vertical-align: -0.01em;
+    color: transparent;
+    background: url("../../images/other/pitstop-wordmark.png") left center / contain no-repeat;
+    white-space: nowrap;
+}
+
 .location {
     background:
         linear-gradient(135deg, #16120e 0%, #0c0d12 42%, #151a22 100%);
@@ -799,6 +810,13 @@ section[id],
     text-align: left;
 }
 
+.instagram .display {
+    font-family: var(--font-body);
+    font-weight: 700;
+    line-height: 1.05;
+    letter-spacing: -0.035em;
+}
+
 .ig-box {
     border: 1px solid var(--line);
     padding: 28px 20px;
@@ -808,11 +826,13 @@ section[id],
 }
 
 .handle {
-    font-family: var(--font-display);
-    font-size: 28px;
+    font-family: var(--font-body);
+    font-size: clamp(20px, 5.5vw, 28px);
+    font-weight: 600;
     color: var(--gold);
-    letter-spacing: 0.08em;
+    letter-spacing: 0.01em;
     margin: 10px 0 18px;
+    overflow-wrap: anywhere;
 }
 
 .site-footer {
