@@ -8,7 +8,7 @@ const ALLOWED_EXT = ["jpg", "jpeg", "png", "webp"];
 const ALLOWED_MIME = ["image/jpeg", "image/png", "image/webp"];
 const MAX_BYTES = 8 * 1024 * 1024;
 const DATA_PATH = "data/site-data.json";
-const FOLDERS = ["hero", "menu", "atmosphere", "auto-moto", "other"];
+const FOLDERS = ["hero", "menu", "atmosphere", "auto-moto", "community", "other"];
 
 export default {
   async fetch(request, env) {

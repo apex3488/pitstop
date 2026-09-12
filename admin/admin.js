@@ -11,8 +11,8 @@
         "footer_tag"
     ];
     const LANGS = ["ru", "uz", "en"];
-    const SECTIONS = ["hero", "atmosphere", "auto-moto", "menu-board", "other"];
-    const FOLDERS = ["hero", "menu", "atmosphere", "auto-moto", "other"];
+    const SECTIONS = ["hero", "atmosphere", "auto-moto", "community", "menu-board", "other"];
+    const FOLDERS = ["hero", "menu", "atmosphere", "auto-moto", "community", "other"];
 
     const titles = {
         overview: "Обзор",
@@ -59,6 +59,7 @@
         const body = await res.json().catch(() => ({}));
         if (res.status === 401) {
             sessionStorage.removeItem(TOKEN_KEY);
+            if (typeof setLoggedIn === "function") setLoggedIn(false);
             throw new Error(body.error || "Сессия истекла. Войдите снова.");
         }
         if (!res.ok) throw new Error(body.error || "Ошибка API");
@@ -113,6 +114,8 @@
         document.body.classList.toggle("auth-page", !on);
         $("login-form").hidden = on;
         $("admin-app").hidden = !on;
+        $("admin-app").setAttribute("aria-hidden", on ? "false" : "true");
+        $("login-form").setAttribute("aria-hidden", on ? "true" : "false");
         if (on) $("login-form").style.display = "none";
         else $("login-form").style.display = "";
     };

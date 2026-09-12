@@ -4,11 +4,15 @@
     "site_description": "PITSTOP — auto&moto community café в Ташкенте. Кафе, где встречаются автомобили, мотоциклы и атмосфера community. Работаем 24/7.",
     "instagram_url": "https://www.instagram.com/pitstop_avtomotocafe/",
     "instagram_handle": "@pitstop_avtomotocafe",
-    "hero_image": "images/hero/hero-night.jpg",
+    "hero_image": "images/hero/hero-main.jpg",
     "about_image": "images/atmosphere/terrace-night.jpg",
     "about_image_2": "images/atmosphere/hammock.jpg",
+    "community_videos": [
+      "videos/community-01.mp4",
+      "videos/community-02.mp4"
+    ],
     "moto_image": "images/auto-moto/bikes-lineup.jpg",
-    "og_image": "images/hero/hero-night.jpg",
+    "og_image": "images/hero/hero-main.jpg",
     "currency": {
       "ru": "сум",
       "uz": "so‘m",
@@ -27,9 +31,9 @@
       "en": "AUTO & MOTO COMMUNITY CAFÉ"
     },
     "hero_title": {
-      "ru": "Ночная точка\nдля своих.",
-      "uz": "O‘zlariki uchun\ntun nuqtasi.",
-      "en": "A night stop\nfor our people."
+      "ru": "МЕСТО О КОТОРОМ\nВСЕ ГОВОРЯТ",
+      "uz": "HAMMA GAPIRADIGAN\nJOY",
+      "en": "THE PLACE\nEVERYONE TALKS ABOUT"
     },
     "hero_text": {
       "ru": "PITSTOP — место, где auto/moto community встречается с атмосферой кафе. Еда, кофе, мотоциклы у входа и разговоры до утра. Работаем 24/7.",
@@ -87,9 +91,9 @@
       "en": "AUTO & MOTO"
     },
     "moto_title": {
-      "ru": "Сюда приезжают\nна двух колёсах\nи на четырёх.",
-      "uz": "Bu yerga ikki\nva to‘rt g‘ildirakda\nkelishadi.",
-      "en": "People arrive\non two wheels\nand on four."
+      "ru": "PITSTOP — место для тех,\nкто в движении.",
+      "uz": "PITSTOP — harakatdagilar\nuchun joy.",
+      "en": "PITSTOP is a place\nfor those in motion."
     },
     "moto_text": {
       "ru": "PITSTOP — auto&moto community café. Техника остаётся у входа, люди остаются за столом.",

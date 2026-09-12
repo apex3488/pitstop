@@ -22,3 +22,4 @@ _copy_assets.py
 worker/.dev.vars
 worker/.wrangler/
 .wrangler/
+backup-before-github-pages/

@@ -10,12 +10,12 @@
     <meta property="og:description" content="PITSTOP — auto&moto community café в Ташкенте. Кафе, где встречаются автомобили, мотоциклы и атмосфера community. Работаем 24/7.">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="PITSTOP">
-    <meta property="og:image" content="images/hero/hero-night.jpg">
+    <meta property="og:image" content="images/hero/hero-main.jpg">
     <link rel="icon" href="images/other/favicon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Teko:wght@500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/site.css">
+    <link rel="stylesheet" href="assets/css/site.css?v=4">
 </head>
 <body>
 <a class="skip-link" href="#home" data-ui="nav_home">Главная</a>
@@ -46,14 +46,14 @@
 <main>
 <section class="hero" id="home">
     <div class="hero-media">
-        <img data-hero-img src="images/hero/hero-night.jpg" alt="PITSTOP night facade" fetchpriority="high">
+        <img data-hero-img src="images/hero/hero-main.jpg" alt="PITSTOP night facade" fetchpriority="high">
     </div>
     <div class="hero-shade"></div>
     <div class="hero-lines" aria-hidden="true"></div>
     <div class="hero-glow" aria-hidden="true"></div>
     <div class="hero-copy">
         <div class="kicker reveal" data-content="hero_kicker">AUTO & MOTO COMMUNITY CAFÉ</div>
-        <h1 class="reveal" data-content-html="hero_title">Ночная точка<br>для своих.</h1>
+        <h1 class="reveal" data-content-html="hero_title">МЕСТО О КОТОРОМ<br>ВСЕ ГОВОРЯТ</h1>
         <p class="reveal" data-content="hero_text"></p>
         <div class="hero-actions reveal">
             <a class="btn btn-primary" href="#menu" data-ui="cta_menu">Смотреть меню</a>
@@ -86,10 +86,14 @@
         </div>
         <div class="about-photos">
             <div class="frame tall">
-                <img data-about-img src="images/atmosphere/terrace-night.jpg" alt="PITSTOP" loading="lazy">
+                <video data-about-video="0" autoplay muted loop playsinline preload="metadata" aria-label="PITSTOP community">
+                    <source src="videos/community-01.mp4" type="video/mp4">
+                </video>
             </div>
             <div class="frame">
-                <img data-about-img-2 src="images/atmosphere/hammock.jpg" alt="PITSTOP" loading="lazy">
+                <video data-about-video="1" autoplay muted loop playsinline preload="metadata" aria-label="PITSTOP community">
+                    <source src="videos/community-02.mp4" type="video/mp4">
+                </video>
             </div>
         </div>
     </div>
@@ -103,7 +107,11 @@
             <p class="lede" data-content="menu_text"></p>
             <p class="tiny" data-ui="menu_note"></p>
         </div>
-        <div class="cats" role="tablist" data-cats></div>
+        <div class="cats-row">
+            <button type="button" class="cats-arrow" data-cats-prev aria-label="Назад">←</button>
+            <div class="cats" role="tablist" data-cats></div>
+            <button type="button" class="cats-arrow" data-cats-next aria-label="Дальше">→</button>
+        </div>
         <div data-menu-panels></div>
         <div class="menu-boards" data-menu-boards></div>
     </div>

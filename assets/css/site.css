@@ -256,7 +256,7 @@ body.nav-open {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: 62% center;
+    object-position: 50% 42%;
     transform: scale(1.08);
     animation: slowZoom 22s var(--ease) infinite alternate;
 }
@@ -355,7 +355,7 @@ body.nav-open {
     line-height: 0.86;
     letter-spacing: 0.02em;
     font-weight: 600;
-    max-width: 9ch;
+    max-width: 12ch;
     text-wrap: balance;
 }
 
@@ -375,6 +375,16 @@ body.nav-open {
     flex-wrap: wrap;
     gap: 10px;
     margin-top: 8px;
+}
+
+@media (max-width: 767px) {
+    .hero-copy {
+        padding-bottom: 152px;
+    }
+
+    .hero-lockup {
+        bottom: 54px;
+    }
 }
 
 .btn {
@@ -476,19 +486,32 @@ section[id],
     min-height: 180px;
 }
 
-.frame img {
+.frame img,
+.frame video {
     width: 100%;
     height: 100%;
+    min-height: 220px;
     object-fit: cover;
+    display: block;
     transition: transform 0.8s var(--ease);
 }
 
-.frame:hover img {
+.frame video {
+    background: #0b0c10;
+}
+
+.frame:hover img,
+.frame:hover video {
     transform: scale(1.06);
 }
 
 .frame.tall {
-    min-height: 240px;
+    min-height: 280px;
+}
+
+.frame.tall video,
+.frame.tall img {
+    min-height: 280px;
 }
 
 .chip-row {
@@ -517,15 +540,53 @@ section[id],
     margin-bottom: 22px;
 }
 
+.cats-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0 0 18px;
+    max-width: 100%;
+}
+
+.cats-arrow {
+    flex: 0 0 auto;
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: var(--charcoal);
+    color: var(--gold);
+    font-size: 18px;
+    line-height: 1;
+}
+
+.cats-arrow:hover:not(:disabled) {
+    border-color: var(--orange);
+    color: var(--white);
+    box-shadow: var(--glow);
+}
+
+.cats-arrow:active:not(:disabled) {
+    transform: scale(0.96);
+}
+
+.cats-arrow:disabled,
+.cats-arrow.is-disabled {
+    opacity: 0.35;
+    cursor: default;
+    box-shadow: none;
+}
+
 .cats {
     display: flex;
     gap: 8px;
     overflow-x: auto;
+    overscroll-behavior-x: contain;
     padding-bottom: 10px;
-    margin: 0 -16px 18px;
-    padding-left: 16px;
-    padding-right: 16px;
+    flex: 1 1 auto;
+    min-width: 0;
     scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
 }
 
 .cats::-webkit-scrollbar {
@@ -687,7 +748,7 @@ section[id],
 }
 
 .moto .display {
-    max-width: 12ch;
+    max-width: 16ch;
 }
 
 .location {
@@ -1071,4 +1132,148 @@ section[id],
 .tiny {
     font-size: 12px;
     color: var(--muted);
+}
+
+a,
+button {
+    transition: color 0.2s var(--ease), background 0.2s var(--ease), border-color 0.2s var(--ease), box-shadow 0.2s var(--ease), transform 0.2s var(--ease), filter 0.2s var(--ease);
+}
+
+.brand:hover strong {
+    color: var(--gold-soft);
+}
+
+.desktop-nav a:hover,
+.mobile-nav a:hover {
+    color: var(--white);
+    text-shadow: 0 0 18px rgba(255, 106, 26, 0.28);
+}
+
+.desktop-nav a:active,
+.mobile-nav a:active {
+    color: var(--orange);
+}
+
+.lang a:hover {
+    color: var(--gold);
+    background: rgba(36, 23, 15, 0.7);
+}
+
+.lang a:active {
+    color: var(--white);
+}
+
+.cta-header:hover {
+    filter: brightness(1.08);
+    box-shadow: var(--glow);
+}
+
+.cta-header:active {
+    transform: scale(0.98);
+}
+
+.burger:hover {
+    background: rgba(255, 106, 26, 0.08);
+}
+
+.burger:active {
+    transform: scale(0.96);
+}
+
+.btn-primary:hover {
+    filter: brightness(1.08);
+    transform: translateY(-1px);
+}
+
+.btn-primary:active {
+    transform: translateY(0);
+    filter: brightness(0.94);
+}
+
+.btn-ghost:hover {
+    border-color: var(--gold);
+    color: var(--white);
+    box-shadow: 0 0 18px rgba(212, 160, 84, 0.18);
+}
+
+.btn-ghost:active {
+    transform: scale(0.98);
+}
+
+.cats button:hover {
+    border-color: var(--gold);
+    color: var(--white);
+}
+
+.cats button:active {
+    transform: scale(0.97);
+}
+
+.menu-boards button {
+    transition: color 0.2s var(--ease), border-color 0.2s var(--ease), box-shadow 0.2s var(--ease);
+}
+
+.menu-boards button:hover {
+    color: var(--white);
+    border-color: var(--orange);
+    box-shadow: var(--glow);
+}
+
+.gallery-card {
+    transition: transform 0.25s var(--ease), box-shadow 0.25s var(--ease);
+}
+
+.gallery-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--glow);
+}
+
+.gallery-card:active {
+    transform: scale(0.99);
+}
+
+.loc-actions a:hover {
+    border-color: var(--gold);
+    color: var(--white);
+    box-shadow: 0 0 16px rgba(212, 160, 84, 0.16);
+}
+
+.loc-actions a.main:hover {
+    border-color: var(--orange);
+    color: var(--gold-soft);
+    box-shadow: var(--glow);
+}
+
+.loc-actions a:active {
+    transform: scale(0.98);
+}
+
+.admin-side a:hover {
+    color: var(--white);
+}
+
+.admin-side a:active {
+    color: var(--orange);
+}
+
+.admin-page .btn:hover,
+.auth-page .btn:hover {
+    filter: brightness(1.06);
+}
+
+@media (hover: none) {
+    .btn-primary:hover,
+    .cta-header:hover {
+        filter: none;
+        transform: none;
+    }
+    .btn-primary:active,
+    .cta-header:active,
+    .cats button:active,
+    .cats-arrow:active:not(:disabled),
+    .gallery-card:active,
+    .loc-actions a:active {
+        filter: brightness(1.1);
+        box-shadow: var(--glow);
+    }
 }

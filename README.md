@@ -9,7 +9,7 @@
 ```text
 GitHub Pages = frontend (статический сайт)
 Cloudflare Worker = безопасный API
-GitHub repository = постоянное хранилище (фото + data/site-data.json)
+GitHub repository = постоянное хранилище (фото, видео, data/site-data.json)
 ```
 
 Публичный сайт не использует PHP, SQLite и Node.js.
@@ -187,7 +187,8 @@ index.html
 js/config.js
 assets/css/
 assets/js/site.js
-images/hero|menu|atmosphere|auto-moto|other/
+images/hero|menu|atmosphere|auto-moto|community|other/
+videos/
 data/site-data.json
 admin/
 worker/
